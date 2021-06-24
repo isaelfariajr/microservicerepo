@@ -19,3 +19,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8082/eureka
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8081/token
