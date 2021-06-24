@@ -1,0 +1,21 @@
+server:
+  port: 8084
+  
+spring:
+ application:
+    name: 'cep'
+ data:
+    mongodb:
+      authentication-database: admin
+      database: cep
+      host: 127.0.0.1
+      password: ci&tbootCamp
+      port: 27017
+      username: bees-ciandt
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8082/eureka
