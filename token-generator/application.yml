@@ -1,0 +1,7 @@
+oauth:
+  client:
+    name: token
+    secret: ciandt2021
+
+jwt:
+  secret: C14ndt-S3cr3T
