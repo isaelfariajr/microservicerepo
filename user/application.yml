@@ -4,6 +4,9 @@ server:
 spring:
  application:
     name: 'user'
+ data:
+   mongodb:
+     uri: mongodb://localhost:27017/db_user         
 
 eureka:
   client:
@@ -16,3 +19,5 @@ security:
   oauth2:
     resource:
       user-info-uri: http://localhost:8081/token
+      
+
